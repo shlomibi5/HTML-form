@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div id="form">
+
+			<form>
+				<legend>הרשמה לאתר</legend>
+			<div>
+				<label>שם מלא:</label><input type="text" placeholder="שם מלא">
+			</div>
+			<div>
+				<label>כתובת:</label><input type="text" placeholder="כתובת מגורים">
+			</div>
+		
+			<div>
+				<label>דואר אלקטרוני:</label><input type="email" placeholder="דואר אלקטרוני">
+			</div>
+			<div>
+				<label>סיסמא:</label><input type="password" placeholder="סיסמא עד 6 תווים" maxlength="6">
+			</div>
+			<div>
+				<label>חזור על הסיסמא:</label><input type="password" placeholder="חזור על הסיסמא שנית" maxlength="6">
+			</div>
+			<div>
+				<label>גיל:</label>
+				<input type="number" min="18" max="55">
+			</div>
+			<div>
+				<label>סטטוס:</label>
+				<br/>
+				רווק
+				<input type="radio" name="status" value="single"><br />
+				נשוי
+				<input type="radio" name="status" value="married">
+			</div>
+			<div>
+				<label>תחביבים:</label>
+				<br/>
+				<input type="checkbox" name="hobbies">
+				מוזיקה
+				<br/>
+				<input type="checkbox" name="hobbies">
+				סרטים
+				<br/>
+				<input type="checkbox" name="hobbies">
+				משחקי מחשב
+				<br/>
+				<input type="checkbox" name="hobbies">
+				תיאטרון
+				<br/>
+				<input type="checkbox" name="hobbies">
+				קריאת ספרים
+				<br/>
+			</div>
+			<br />
+			<div>
+				<label>שם המפרסם שדרכו הגעת לאתר</label>
+				<input type="text" placeholder="W24LCH" readonly=""/>
+			</div>
+			<br />
+			<div>
+				<label>הוסף תמונת פרופיל</label>
+				<input type="file" style="width: 170px;">
+			</div><br />
+			<div>
+				<label>קצת על עצמך:</label>
+				<br/>
+				<textarea style="width: 380px; height: 80px;">				
+			
+			</textarea>
+			</div>
+			
+				<button type="reset">
+					אפס טופס
+				</button>
+
+				<input id="submt" type="submit">
+			
+
+			<div>
+
+			</div>
+			</form>
+		</div>
+	</body>
+</html>
