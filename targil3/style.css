@@ -6,13 +6,12 @@ body {
 	font-size: 14px;
 }
 legend {
-margin-right:10px;
+	margin-right: 10px;
 	font-family: Tahoma;
 	color: #ffffff;
 	margin-bottom: 20px;
-font-size: 16px;
-font-weight: bold;
-
+	font-size: 16px;
+	font-weight: bold;
 }
 
 #form {
@@ -34,7 +33,7 @@ input {
 }
 
 button {
-	margin-right:5px;
+	margin-right: 5px;
 	margin-top: 15px;
 	background: #dbd333;
 	background-image: -webkit-linear-gradient(top, #dbd333, #b8a52b);

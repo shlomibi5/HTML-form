@@ -5,23 +5,7 @@
 	</head>
 
 	<body>
-		<script>
-						function outputUpdate(vol) {
-			document.querySelector('#age').value = vol;
 
-			}
-			var email = document.getElementById("email");
-			email.addEventListener("keyup", function
-			(event) {
-			if(email.validity.typeMismatch) {
-		email.setCustomValidity("נא לרשום כתובת אימייל תקינה")
-			 
-			} 
-			else {
-			email.setCustomValidity("fsdfsdsdfs");
-			}
-			});
-		</script>
 		<div id="form">
 
 			<form>
@@ -91,5 +75,21 @@
 				</div>
 			</form>
 		</div>
+				<script>
+			function outputUpdate(vol) {
+				document.querySelector('#age').value = vol;
+
+			}
+
+			var email = document.getElementById("email");
+			email.addEventListener("keyup", function(event) {
+				if (email.validity.typeMismatch) {
+					email.setCustomValidity("נא לרשום כתובת אימייל תקינה")
+
+				} else {
+					email.setCustomValidity("");
+				}
+			});
+		</script>
 	</body>
 </html>
