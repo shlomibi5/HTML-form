@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<script>
+						function outputUpdate(vol) {
+			document.querySelector('#age').value = vol;
+
+			}
+			var email = document.getElementById("email");
+			email.addEventListener("keyup", function
+			(event) {
+			if(email.validity.typeMismatch) {
+		email.setCustomValidity("נא לרשום כתובת אימייל תקינה")
+			 
+			} 
+			else {
+			email.setCustomValidity("fsdfsdsdfs");
+			}
+			});
+		</script>
+		<div id="form">
+
+			<form>
+				<legend>
+					אימות הרשמה לאתר
+				</legend>
+				<div>
+					<label>שם מלא:</label>
+					<input type="text" placeholder="שם מלא" required>
+				</div>
+				<div>
+					<label>כתובת:</label>
+					<input type="text" placeholder="כתובת מגורים" required>
+				</div>
+
+				<div>
+					<label>דואר אלקטרוני:</label>
+					<input type="email" placeholder="דואר אלקטרוני" required>
+				</div>
+				<div>
+					<label>סיסמא:</label>
+					<input type="password" placeholder="סיסמא עד 6 תווים" maxlength="6" required>
+				</div>
+				<div>
+					<label>חזור על הסיסמא:</label>
+					<input type="password" placeholder="חזור על הסיסמא שנית" maxlength="6" required>
+				</div>
+				<br />
+				<br />
+				<div>
+					<legend>
+						אימות פרטים
+					</legend>
+					<label>אימות דואר אלקטרוני</label>
+					<input id="email" type="email" placeholder="אימות דואר אלקטרוני" required>
+				</div>
+				<br />
+				<br />
+				<div>
+					<label>גיל:</label>
+
+					<input type="range" min="18" max="65" step="1" oninput="outputUpdate(value)">
+					<output id="age">
+						18
+					</output>
+
+				</div>
+				<br />
+				<div>
+					<label>שם מלא:</label>
+					<input type="text" placeholder="שם מלא" maxlength="30" required>
+				</div>
+				<div>
+					<label>דואר אלקטרוני:</label>
+					<input type="email" placeholder="דואר אלקטרוני" maxlength="30" required>
+				</div>
+				<button type="reset">
+					אפס טופס
+				</button>
+
+				<button id="submt" type="submit">
+					שלח
+				</button>
+
+				<div>
+
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

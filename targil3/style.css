@@ -1,0 +1,90 @@
+body {
+	background: #333333;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	direction: rtl;
+	font-size: 14px;
+}
+legend {
+margin-right:10px;
+	font-family: Tahoma;
+	color: #ffffff;
+	margin-bottom: 20px;
+font-size: 16px;
+font-weight: bold;
+
+}
+
+#form {
+	background: #990066;
+	width: 400px;
+	margin: 0 auto;
+	border: groove #ffffff 5px;
+	border-radius: 25px;
+	-webkit-box-shadow: 1px 1px;
+}
+
+div {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+input {
+	float: left;
+	margin-left: 220px;
+}
+
+button {
+	margin-right:5px;
+	margin-top: 15px;
+	background: #dbd333;
+	background-image: -webkit-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: -moz-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: -ms-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: -o-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: linear-gradient(to bottom, #dbd333, #b8a52b);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+button:hover {
+	background: #B8A52B;
+	background-image: -webkit-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: -moz-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: -ms-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: -o-linear-gradient(top, #dbd333, #b8a52b);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+#submt {
+	margin-top: 15px;
+	background: #698fdb;
+	background-image: -webkit-linear-gradient(top, #698fdb, #2c2cb8);
+	background-image: -moz-linear-gradient(top, #698fdb, #2c2cb8);
+	background-image: -ms-linear-gradient(top, #698fdb, #2c2cb8);
+	background-image: -o-linear-gradient(top, #698fdb, #2c2cb8);
+	background-image: linear-gradient(to bottom, #698fdb, #2c2cb8);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+#submt:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
